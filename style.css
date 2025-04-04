@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/* Estilos gerais para o corpo da página */
+body {
+    background: url(imagens/background.png);
+    font-family: 'MedievalSharp', cursive;
+    background-color: #38291d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f0ead6;
+    flex-direction: column;
+}
+
+/* Container para o logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: -150px;
+    width: 100%;
+}
+
+/* Estilos para a imagem do logo */
+.logo-container img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+}
+
+/* Container principal do quiz */
+.quiz-container {
+    background-color: rgba(56, 41, 29, 0.8);
+    border: 4px solid #a0855b;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* Container para o conteúdo do quiz (progresso, pergunta, opções) */
+.conteudo {
+    padding: 20px;
+}
+
+/* Estilos para a exibição do progresso */
+.progresso {
+    font-size: 1.1em;
+    color: #a0855b;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0 #000;
+}
+
+/* Estilos para a exibição da pergunta */
+.pergunta {
+    font-size: 1.8em;
+    color: #f0ead6;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 0 #000;
+}
+
+/* Container para as opções de resposta */
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Estilos para cada botão de resposta */
+.botao-resposta {
+    background-color: #776147;
+    color: #f0ead6;
+    border: 2px solid #a0855b;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: left;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para o botão de resposta no hover */
+.botao-resposta:hover {
+    background-color: #a0855b;
+    color: #38291d;
+}
+
+/* Container para a tela final do quiz */
+.fim {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+    color: #a0855b;
+    text-shadow: 1px 1px 0 #000;
+}
+
+/* Estilos para o texto de resultado na tela final */
+.fim span {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #f0ead6;
+    text-shadow: 2px 2px 0 #000;
+}
+
+/* Estilos para o botão de recomeçar na tela final */
+.fim button#recomecar-botao {
+    background-color: #776147;
+    color: #f0ead6;
+    border: 2px solid #a0855b;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para o botão de recomeçar no hover */
+.fim button#recomecar-botao:hover {
+    background-color: #a0855b;
+    color: #38291d;
+}
+
+/* ESTILIZAÇÃO DO RODAPÉ */
+footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* ESTILIZAÇÃO DOS LINKS NO RODAPÉ */
+footer a {
+    color: #1E90FF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* EFEITO AO PASSAR O MOUSE NOS LINKS DO RODAPÉ */
+footer a:hover {
+    text-decoration: underline;
+    color: #87CEFA;
+}
