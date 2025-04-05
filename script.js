@@ -11,9 +11,9 @@ perguntas = [
     {
         pergunta: "Qual é a ordem certa do Jokepon Rpg?",
         respostas: [
-            { opcao: "🗡️ ASSISSINO ➔ 🔮 MAGO ➔ ⚔️ GUERREIRO ➔ 🗡️ ASSISSINO", correto: true },
-            { opcao: "🗡️ ASSISSINO  ➔ ⚔️ GUERREIRO ➔ 🔮 MAGO ➔ 🗡️ ASSISSINO ", correto: false },
-            { opcao: "⚔️ GUERREIRO ➔ ✝️ Padre ➔ 🔮 MAGO ➔ 🗡️ ASSISSINO ", correto: false }
+            { opcao: "🗡️ ASSASSINO ➔ 🔮 MAGO ➔ ⚔️ GUERREIRO ➔ 🗡️ ASSISSINO", correto: true },
+            { opcao: "🗡️ ASSASSINO  ➔ ⚔️ GUERREIRO ➔ 🔮 MAGO ➔ 🗡️ ASSISSINO ", correto: false },
+            { opcao: "⚔️ GUERREIRO ➔ ✝️ Padre ➔ 🔮 MAGO ➔ 🗡️ ASSASSINO ", correto: false }
         ]
     },
     {
